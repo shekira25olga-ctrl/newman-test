@@ -17,7 +17,8 @@
 							"name": "Post #99",
 							"request": {
 								"method": "GET",
-								"header": []
+								"header": [],
+								"url": "{{base_url}}/posts/99"
 							},
 							"response": []
 						},
@@ -25,7 +26,8 @@
 							"name": "Get authenticated user",
 							"request": {
 								"method": "GET",
-								"header": []
+								"header": [],
+								"url": "{{base_url}}/posts/1"
 							},
 							"response": []
 						}
@@ -37,8 +39,31 @@
 						{
 							"name": "Post new user",
 							"request": {
-								"method": "GET",
-								"header": []
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/posts?title=QA Students&body=Postman training&userId=1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"posts"
+									],
+									"query": [
+										{
+											"key": "title",
+											"value": "QA Students"
+										},
+										{
+											"key": "body",
+											"value": "Postman training"
+										},
+										{
+											"key": "userId",
+											"value": "1"
+										}
+									]
+								}
 							},
 							"response": []
 						}
@@ -50,8 +75,9 @@
 						{
 							"name": "Delete Post",
 							"request": {
-								"method": "GET",
-								"header": []
+								"method": "DELETE",
+								"header": [],
+								"url": "{{base_url}}/posts/1"
 							},
 							"response": []
 						}
@@ -63,8 +89,24 @@
 						{
 							"name": "Edit title",
 							"request": {
-								"method": "GET",
-								"header": []
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/posts/1?title=New",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"posts",
+										"1"
+									],
+									"query": [
+										{
+											"key": "title",
+											"value": "New"
+										}
+									]
+								}
 							},
 							"response": []
 						}
@@ -76,8 +118,9 @@
 						{
 							"name": "Get options",
 							"request": {
-								"method": "GET",
-								"header": []
+								"method": "OPTIONS",
+								"header": [],
+								"url": "{{base_url}}"
 							},
 							"response": []
 						}
