@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "e0c15b77-5b7a-41af-99d3-88c4daa196a7",
+		"name": "QA TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "50037002",
+		"_collection_link": "https://shekira25olga-ctrl-6674197.postman.co/workspace/473f9ea5-929a-4306-8d9c-50fe64bfd93f/collection/50037002-e0c15b77-5b7a-41af-99d3-88c4daa196a7?action=share&source=collection_link&creator=50037002"
+	},
+	"item": [
+		{
+			"name": "Collections",
+			"item": [
+				{
+					"name": "GET Collection",
+					"item": [
+						{
+							"name": "Post #99",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						},
+						{
+							"name": "Get authenticated user",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST Collection",
+					"item": [
+						{
+							"name": "Post new user",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "DELETE Collection",
+					"item": [
+						{
+							"name": "Delete Post",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "PUT Collection",
+					"item": [
+						{
+							"name": "Edit title",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "OPTIONS Collection",
+					"item": [
+						{
+							"name": "Get options",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
